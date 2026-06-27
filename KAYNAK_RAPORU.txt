@@ -1,0 +1,14 @@
+StreamVizyon V7 Kaynak Raporu
+
+Ballerina (2025): 3 kaynak -> Türkçe Dublaj 1, Türkçe Dublaj 2, Türkçe Altyazı
+John Wick: Chapter 4 (2023): 0 kaynak -> mesajda video URL yoktu
+John Wick: Chapter 3 - Parabellum (2019): 1 kaynak -> Türkçe Dublaj
+John Wick: Chapter 2 (2017): 3 kaynak -> Türkçe Dublaj 1, Türkçe Dublaj 2, Türkçe Altyazı
+John Wick (2014): 0 kaynak -> mesajda video URL yoktu
+Spider-Man: Far from Home (2019): 2 kaynak -> Türkçe Dublaj, Türkçe Altyazı
+Spider-Man: Homecoming (2017): 4 kaynak -> Türkçe Dublaj 1, Türkçe Dublaj 2, Türkçe Altyazı 1, Türkçe Altyazı 2
+Spider-Man: No Way Home (2021): 0 kaynak -> mesajda video URL yoktu
+Tales from the Hood 3 (2020): 4 kaynak -> Türkçe Dublaj 1, Türkçe Dublaj 2, Türkçe Altyazı 1, Türkçe Altyazı 2
+
+Toplam video kaynak sayısı: 358
+As You Stood By (2025): 8 bölüm, 31 kaynak eklendi.

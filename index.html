@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Ana Sayfa - StreamVizyon</title>
+<link rel="icon" href="assets/streamvizyon-icon.png" />
+<link rel="stylesheet" href="css/style.css" />
+<script src="js/data.js" defer></script>
+<script src="js/app.js" defer></script>
+</head>
+<body data-page="home">
+<header class="header">
+  <div class="shell nav">
+    <a href="index.html"><img class="logo" src="assets/streamvizyon-logo.png" alt="StreamVizyon"></a>
+    <nav class="menu">
+      <a data-page="home" href="index.html">⌂ Ana Sayfa</a>
+      <a data-page="catalog" href="katalog.html">▣ Katalog</a>
+      <a data-page="trend" href="trend.html">▥ Trend</a>
+      <a data-page="favorites" href="favoriler.html">♡ Favoriler</a>
+    </nav>
+    <div class="nav-right">
+      <label class="top-search">⌕ <input id="topSearch" placeholder="İçerik ara..."></label>
+      <button class="icon-btn">♢</button>
+    </div>
+  </div>
+</header>
+<main id="app"></main>
+<footer class="footer">
+  <div class="shell footer-grid">
+    <div><img class="footer-logo" src="assets/streamvizyon-logo.png" alt="StreamVizyon"><p>Yüklediğin film, dizi ve anime bilgileri katalog, tanıtım ve izleme sistemine eklendi.</p></div>
+    <div><h4>Keşfet</h4><a href="katalog.html">Katalog</a><a href="trend.html">Trend</a><a href="katalog.html?genre=Anime">Anime</a></div>
+    <div><h4>Sayfalar</h4><a href="detay.html?id=ballerina-2025">Ballerina Tanıtım</a><a href="detay.html?id=vikings">Vikings Tanıtım</a><a href="favoriler.html">Favorilerim</a><a href="kaynak-panel.html">Kaynak Paneli</a></div>
+    <div><h4>Destek</h4><a href="#">Yardım Merkezi</a><a href="#">İletişim</a><a href="#">Gizlilik</a></div>
+    <div><h4>Bizi Takip Edin</h4><div class="socials"><span>▶</span><span>◎</span><span>𝕏</span><span>☻</span></div></div>
+  </div>
+</footer>
+<div class="toast" id="toast">Hazır</div>
+</body>
+</html>

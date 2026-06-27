@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Yasal Video Kaynak Paneli - StreamVizyon</title>
+<link rel="icon" href="assets/streamvizyon-icon.png" />
+<link rel="stylesheet" href="css/style.css" />
+<script src="js/data.js" defer></script>
+<script src="js/source-panel.js" defer></script>
+</head>
+<body data-page="source">
+<header class="header">
+  <div class="shell nav">
+    <a href="index.html"><img class="logo" src="assets/streamvizyon-logo.png" alt="StreamVizyon"></a>
+    <nav class="menu">
+      <a data-page="home" href="index.html">⌂ Ana Sayfa</a>
+      <a data-page="catalog" href="katalog.html">▣ Katalog</a>
+      <a data-page="trend" href="trend.html">▥ Trend</a>
+      <a data-page="favorites" href="favoriler.html">♡ Favoriler</a>
+      <a class="active" href="kaynak-panel.html">⚙ Kaynak Paneli</a>
+    </nav>
+  </div>
+</header>
+
+<main class="shell page">
+  <h1 class="page-title">Yasal Video Kaynak Paneli</h1>
+  <p class="section-sub">Buradan sadece sana ait, lisanslı veya yayın hakkına sahip olduğun video/embed URL’lerini kaydet. Kaydedilen linkler tarayıcı hafızasında tutulur ve izleme sayfası otomatik kullanır.</p>
+
+  <div class="source-note section">
+    Paylaştığın dış bağlantıları otomatik eklemedim. Hazır izleme sistemi burada; yasal kaynaklarını bu panelden ekleyince player çalışır.
+  </div>
+
+  <section class="source-layout section">
+    <aside class="panel side">
+      <h3>İçerikler</h3>
+      <div class="side-list" id="contentList"></div>
+    </aside>
+
+    <div class="panel" style="padding:16px">
+      <div class="section-head">
+        <div>
+          <h2 class="section-title" id="panelTitle">Kaynaklar</h2>
+          <p class="section-sub" id="panelSub">Bölüm kaynakları</p>
+        </div>
+        <div class="actions" style="margin-top:0">
+          <button class="btn btn-primary btn-small" id="saveBtn">Kaydet</button>
+          <button class="btn btn-ghost btn-small" id="exportBtn">JSON Dışa Aktar</button>
+          <label class="btn btn-ghost btn-small local-watch">JSON İçe Aktar<input id="importFile" type="file" accept="application/json,.json"></label>
+          <button class="btn btn-danger btn-small" id="clearBtn">Temizle</button>
+        </div>
+      </div>
+
+      <table class="source-table">
+        <thead>
+          <tr><th>Sezon</th><th>Bölüm</th><th>Yasal Video / Embed URL</th><th>Test</th></tr>
+        </thead>
+        <tbody id="sourceRows"></tbody>
+      </table>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="shell footer-grid">
+    <div><img class="footer-logo" src="assets/streamvizyon-logo.png" alt="StreamVizyon"><p>Yasal kaynak paneli ile izleme sistemi hazır.</p></div>
+    <div><h4>Keşfet</h4><a href="katalog.html">Katalog</a><a href="trend.html">Trend</a></div>
+    <div><h4>Sayfalar</h4><a href="index.html">Ana Sayfa</a><a href="favoriler.html">Favorilerim</a></div>
+    <div><h4>Kaynak</h4><a href="VIDEO_SOURCES_TEMPLATE.json">Boş JSON Şablonu</a></div>
+    <div><h4>Not</h4><p>Yalnızca yasal/lisanslı URL kullan.</p></div>
+  </div>
+</footer>
+<div class="toast" id="toast">Hazır</div>
+</body>
+</html>
